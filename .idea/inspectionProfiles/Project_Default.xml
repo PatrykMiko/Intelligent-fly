@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="attrs" />
+          <option value="exceptiongroup" />
+          <option value="importlib_metadata" />
+          <option value="iniconfig" />
+          <option value="mypy" />
+          <option value="mypy-extensions" />
+          <option value="networkx" />
+          <option value="networkx-stubs" />
+          <option value="numpy" />
+          <option value="packaging" />
+          <option value="pillow" />
+          <option value="platformdirs" />
+          <option value="pluggy" />
+          <option value="py" />
+          <option value="pyparsing" />
+          <option value="pytest" />
+          <option value="setuptools" />
+          <option value="toml" />
+          <option value="tomli" />
+          <option value="types-Pillow" />
+          <option value="typing" />
+          <option value="typing_extensions" />
+          <option value="yapf" />
+          <option value="zipp" />
+          <option value="ruff" />
+          <option value="overdue" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Preprocessing.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,7 @@
+name: lstm
+seed: 0
+device: auto
+out_dir: runs
+task: {seq_len: 16, screen_encoding: onehot_signed, screen_noise: 0.0, legs_mode: teacher, held_x: 6, held_states: 6, val_frac: 0.05, test_frac: 0.10, split_seed: 0}
+model: {name: lstm, hidden: 50}
+train: {steps: 5000, batch_size: 128, lr: 0.003, grad_clip: 1.0, eval_every: 250, log_every: 50, eval_episodes: 512}
